@@ -12,7 +12,7 @@ function HeroSec() {
                 <button className='bg-yellow-400 text-black flex gap-2 py-2 w-fit  px-3 mt-8'>HIRE ME <ArrowBigRightDash /> </button>
             </div>
             <div>
-                <img className='w-full' src="public/heroimg2.png" alt="" />
+                <img className='w-full' src="/myportfolio/heroimg2.png" alt="" />
 
             </div>
 

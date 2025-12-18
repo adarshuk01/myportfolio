@@ -20,7 +20,7 @@ function Layout() {
       {/* Mobile menu button */}
       <button
         onClick={() => setIsSidebarOpen(true)}
-        className="lg:hidden absolute top-4 left-4 z-50 bg-gray-900 text-white p-2 rounded-md shadow"
+        className={`lg:hidden absolute top-0 left-0 z-50  bg-yellow-400 text-white p-2 rounded-md shadow`}
       >
         <Menu size={20} />
       </button>
@@ -55,14 +55,11 @@ function Layout() {
 
       {/* Right Sidebar (Desktop only) */}
       <div className="hidden lg:flex col-span-1 flex-col gap-4">
-        <Switch onclick={() => toggleTheme()} />
+        <Switch theme={theme} onclick={() => toggleTheme()} />
         <RightSidebar />
       </div>
 
-      {/* ✅ Mobile bottom bar (only visible on mobile) */}
-      <div className="lg:hidden">
-        <MobileBar />
-      </div>
+     
     </div>
   );
 }

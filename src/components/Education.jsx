@@ -2,26 +2,26 @@ import React from "react";
 
 const educationData = [
   {
-    title: "University Of Toronto",
+    title: "Kannur University",
     role: "Student",
-    date: "Jan 1016 - Dec 2021",
-    certificate: "Certificate Of Web Training",
+    date: "July 2019 - April 2022",
+    certificate: "BSc Computer Science",
     description:
       "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor. Pulvinar Quisque Sed Amet, Nulla Nunc. Eleifend Sodales Posuere Fusce Tempus Etiam Et Pellentesque. Molestie Risus Enim Neque Eget Dui.",
   },
   {
-    title: "Programming Course",
+    title: "Higher Secondary Education",
     role: "Student",
-    date: "Jan 1016 - Dec 2021",
-    certificate: "Certificate Of Web Training",
+    date: "June 2017 - March 2019",
+    certificate: "Computer Science",
     description:
       "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor. Pulvinar Quisque Sed Amet, Nulla Nunc. Eleifend Sodales Posuere Fusce Tempus Etiam Et Pellentesque. Molestie Risus Enim Neque Eget Dui.",
   },
   {
-    title: "Web Developer Courses",
-    role: "Student",
-    date: "Jan 1016 - Dec 2021",
-    certificate: "Certificate Of Web Training",
+    title: "Web Developement Course",
+    role: "Intern",
+    date: "Feb 2024 - Jul 2024",
+    certificate: "TryCode Innovation ,Calicut",
     description:
       "Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Amet Dapibus Nibh Ut Faucibus Nunc, Egestas Id Amet Porttitor. Pulvinar Quisque Sed Amet, Nulla Nunc. Eleifend Sodales Posuere Fusce Tempus Etiam Et Pellentesque. Molestie Risus Enim Neque Eget Dui.",
   },
@@ -29,14 +29,14 @@ const educationData = [
 
 export default function Education() {
   return (
-    <section  className=" py-10">
-      <div className="text-center mb-8">
-        <h2 className="text-4xl font-bold uppercase">Education</h2>
+    <section  className=" py-4">
+      <div className="text-center mb-2">
+        <h2 className=" text-3xl lg:text-4xl  font-extrabold uppercase">Education</h2>
              </div>
 
       <div className="max-w-5xl mx-auto divide-y divide-gray-200  p-4">
         {educationData.map((edu, index) => (
-          <div key={index} className="grid md:grid-cols-2 gap-6 py-6">
+          <div key={index} className="grid md:grid-cols-2 gap-2 py-2">
             {/* Left */}
             <div>
               <h3 className="text-lg font-semibold ">{edu.title}</h3>

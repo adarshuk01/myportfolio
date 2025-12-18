@@ -1,0 +1,113 @@
+export const projects = [
+  {
+    id: 1,
+    name: "Quick Cart - Admin",
+    image: "/myportfolio/QuickCart/quickcart-dashboard.png",
+    video:'/myportfolio/QuickCart/quickkart.mp4',
+    link: "https://quick-cart-gm6k.vercel.app/",
+    github: "https://github.com/adarshuk01/QuickCart",
+    languages: ["React", "Node.js", "MongoDB", "HTML","CSS","TailwindCSS","Express Js","Rest API"],
+    features: [
+      {
+        id: 1,
+        title: " Dashboard",
+        image: ["/myportfolio/QuickCart/quickcart-dashboard.png"],
+        description: "The image showcases the QuickCart admin dashboard, a feature designed to provide administrators with a clear overview of their eCommerce store’s performance. It offers quick insights into key metrics such as revenue, orders, user activity, and traffic, supported by visual charts that track sales trends and customer engagement over time. With an intuitive layout and sidebar navigation, the dashboard allows easy access to orders, products, customers, reports, discounts, and settings, making it a centralized hub for managing and monitoring the business efficiently.",
+      },
+      {
+        id: 2,
+        title: "Category",
+        image: ["/myportfolio/QuickCart/quickcart-category.png","/myportfolio/QuickCart/quickcart-editcat.png"],
+        description: "These screenshots highlight the Categories Management feature of the QuickCart admin panel. It allows administrators to easily organize products into categories and subcategories. From this section, new categories can be created by entering a name, uploading an image, and saving them. Existing categories are displayed with their respective subcategories, which can be added, edited, or deleted as needed. Each category also supports image updates for better visual representation. This feature simplifies product organization, making it easier for customers to browse through well-structured product groups while giving admins full control over managing the store’s catalog.",
+      },
+      {
+        id: 3,
+        title: "Add,Edit,List Product",
+        image: ["/myportfolio/QuickCart/addproduct.png","/myportfolio/QuickCart/Screenshot 2025-09-10 090833.png","/myportfolio/QuickCart/Screenshot 2025-09-10 090945.png"],
+        description: "These screenshots highlight the Product Management feature of the QuickCart admin panel. Admins can easily add new products by entering details such as the product name, description, category, subcategory, images, price, and stock availability. A key enhancement here is the integration of Gemini AI, which helps automatically generate rich and detailed product descriptions and even product images when needed. This reduces manual effort, ensures consistency, and speeds up catalog management. By combining manual inputs with AI-powered assistance, the system provides a smarter and more efficient way to build and manage a product catalog.",
+      },
+       {
+        id: 3,
+        title: "Apply Discounts",
+        image: ["/myportfolio/QuickCart/Screenshot 2025-09-10 091940.png","/myportfolio/QuickCart/Screenshot 2025-09-10 092044.png","/myportfolio/QuickCart/Screenshot 2025-09-10 092107.png"],
+        description: "These screenshots highlight the Product Management feature of the QuickCart admin panel. Admins can easily add new products by entering details such as the product name, description, category, subcategory, images, price, and stock availability. A key enhancement here is the integration of Gemini AI, which helps automatically generate rich and detailed product descriptions and even product images when needed. This reduces manual effort, ensures consistency, and speeds up catalog management. By combining manual inputs with AI-powered assistance, the system provides a smarter and more efficient way to build and manage a product catalog.",
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: "QuickCart-user",
+    image: "/myportfolio/quickcart-user/Screenshot 2025-12-18 102942.png",
+    video:'/myportfolio/quickcart-user/cursorful-video-1766033192048.mp4',
+    link: "https://quick-cart-3eep.vercel.app/",
+    github: "https://github.com/adarshuk01/QuickCart",
+    languages: ["React", "Node.js", "MongoDB", "HTML","CSS","TailwindCSS","Express Js","Rest API"],
+    features: [
+      {
+        id: 1,
+        title: "Home Page",
+        image: ["/myportfolio/quickcart-user/Screenshot 2025-12-18 102942.png"],
+        description: "The QuickCart home page presents a clean, modern e-commerce layout with promotional banners highlighting discounts and seasonal offers at the top. It features eye-catching sliders, featured products, and new arrivals with clear pricing and stock status. Category browsing is made easy through large, icon-based sections like Grocery, Furniture, and Sports, while promotional strips emphasize big sales and coupons. The page is rounded out with service highlights, latest news, and a detailed footer, creating a professional and user-friendly shopping experience across both desktop and mobile views.",
+      },
+      {
+        id: 2,
+        title: "Product list",
+        image: ["/myportfolio/quickcart-user/localhost_5174_furniture (2).png"],
+        description: "This page shows the collection listing of the QuickCart website with a structured and user-friendly product layout. It includes a sidebar for filtering products by category, price range, size, and availability, making it easy for users to refine their search. The main section displays grocery items with images, prices, stock status, ratings, and clear call-to-action buttons like Add to Cart or Out of Stock. A sorting option and product count selector enhance usability, creating a clean and efficient shopping experience.",
+      },
+      {
+        id: 3,
+        title: "product detail view",
+        image: ["/myportfolio/quickcart-user/localhost_5174_furniture (3).png"],
+        description: "This page represents a product detail view designed with a clean and informative layout. It features a large product image gallery on the left with thumbnail previews, allowing users to view the item from multiple angles. On the right, detailed information such as pricing, key highlights, and descriptive bullet points is clearly presented, along with category and tag details. Quantity controls and prominent action buttons like Add to Cart enhance usability, while the overall structure focuses on clarity, easy navigation, and a smooth shopping experience.",
+      },
+       {
+        id: 4,
+        title: "shopping cart overview",
+        image: ["/myportfolio/quickcart-user/localhost_5174_furniture (5).png"],
+        description: "This page shows the shopping cart overview, where users can review the items they have added before checkout. It displays a list of selected products with thumbnails, quantities, and individual prices, along with controls to increase, decrease, or remove items. A summary panel on the side clearly breaks down the subtotal, discounts, delivery charges, and total amount, and includes a promo code option. The layout is clean and intuitive, helping users quickly verify their order and proceed confidently to checkout.",
+      },
+       {
+        id: 5,
+        title: "checkout process",
+        image: ["/myportfolio/quickcart-user/localhost_5174_furniture (6).png"],
+        description: "This page represents the checkout process, designed to guide users through completing their purchase smoothly. It includes a structured shipping address form for entering delivery details, followed by a payment step to finalize the order. On the right side, an order summary clearly lists selected items, quantities, prices, shipping cost, and the final total. The clean, step-by-step layout helps users review their information easily and complete checkout with confidence.",
+      },
+       {
+        id: 6,
+        title: "user account dashboard",
+        image: ["/myportfolio/quickcart-user/localhost_5174_furniture (7).png"],
+        description: "This page represents the user account dashboard, designed to help users manage their activities in one place. It includes a sidebar with quick access to orders, account settings, payments, and saved items, along with a logout option. The main section displays order information with status-based tabs such as all, processing, delivered, and cancelled, allowing users to easily track their purchases. The layout is clean and organized, providing a clear overview of account-related details and order history.",
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "E-Commerce App",
+    image: "https://via.placeholder.com/400x250.png?text=E-Commerce+App",
+    video:'',
+    link: "https://ecommerce-demo.com",
+    github: "https://github.com/adarshuk/ecommerce-app",
+    languages: ["React", "Express", "MongoDB", "Node", "Tailwind CSS", "Gemini AI"],
+    features: [
+      {
+        id: 1,
+        title: "AI Product Enhancer",
+        image: ["https://via.placeholder.com/150x100.png?text=Product+AI"],
+        description: "AI-powered product image background remover and enhancer.",
+      },
+      {
+        id: 2,
+        title: "Smart Cart",
+        image: ["https://via.placeholder.com/150x100.png?text=Cart"],
+        description: "Advanced shopping cart with discount handling and quantity limits.",
+      },
+      {
+        id: 3,
+        title: "Admin Panel",
+        image:[ "https://via.placeholder.com/150x100.png?text=Admin"],
+        description: "Admin panel for managing products, categories, orders, and users.",
+      },
+    ],
+  },
+];
